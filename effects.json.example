@@ -1,0 +1,266 @@
+{
+  "hyperion":  
+    [
+      {
+        "name": "knight-rider",
+        "preset": "Knight rider",
+        "timeout": 3,
+        "type": "effect"
+      },
+      {
+        "name": "blue-blobs",
+        "preset": "Blue mood blobs",
+        "timeout": 3,   
+        "type": "effect"
+      },
+      { 
+        "name": "cold-blobs",
+        "preset": "Cold mood blobs",
+        "timeout": 3,   
+        "type": "effect"
+      },
+      {
+        "name": "colour-blobs",
+        "preset": "Full color mood blobs",
+        "timeout": 3,   
+        "type": "effect"
+      },
+      {
+        "name": "green-blobs",
+        "preset": "Green mood blobs",
+        "timeout": 3,   
+        "type": "effect"
+      },
+      {
+        "name": "red-blobs",
+        "preset": "Red mood blobs",
+        "timeout": 3,   
+        "type": "effect"
+      },
+      {
+        "name": "warm-blobs",
+        "preset": "Warm mood blobs",
+        "timeout": 3,   
+        "type": "effect"
+      },
+      {
+        "name": "rainbow",
+        "preset": "Rainbow mood",
+        "timeout": 3,   
+        "type": "effect"
+      },
+      {
+        "name": "rainbow-swirl",
+        "preset": "Rainbow swirl",
+        "timeout": 3,   
+        "type": "effect"
+      },
+      {
+        "name": "rainbow-swirl-fast",
+        "preset": "Rainbow swirl fast",
+        "timeout": 3,   
+        "type": "effect"
+      },
+      {
+        "name": "snake",
+        "preset": "Snake",
+        "timeout": 3,   
+        "type": "effect"
+      },
+      {
+        "name":"blue-strobe",
+        "preset": "Strobe blue",
+        "timeout": 3,   
+        "type": "effect"
+      },
+      {
+        "name": "red-strobe",
+        "preset": "Strobe Raspbmc",
+        "timeout": 3,   
+        "type": "effect"
+      },
+      {
+        "name": "white-strobe",
+        "preset": "Strobe white",
+        "timeout": 2,   
+        "type": "effect"
+      },
+      { 
+        "name": "cyan",
+        "preset": [ 0, 183, 194 ],
+        "timeout": 0.5,
+        "type": "colour"
+      },
+      {
+        "name": "blue",
+        "preset": [ 0, 10, 194 ],
+        "timeout": 0.5,
+        "type": "colour"
+      },
+      {
+        "name": "green",
+        "preset": [ 48, 194, 0 ],
+        "timeout": 0.5,
+        "type": "colour"
+      },
+      {
+        "name": "red",
+        "preset": [ 194, 14, 0 ],
+        "timeout": 0.5,
+        "type": "colour"
+      },
+      {
+        "name": "pink",
+        "preset": [ 194, 0, 180 ],
+        "timeout": 0.5,
+        "type": "colour"
+      },
+      {
+        "name": "orange",
+        "preset": [ 194, 110, 0 ],
+        "timeout": 0.5,
+        "type": "colour"
+      },
+      {
+        "name": "purple", 
+        "preset": [ 99, 0, 194 ],
+        "timeout": 0.5,
+        "type": "colour"
+      },
+      {
+        "name": "aqua", 
+        "preset": [ 0, 194, 117 ],
+        "timeout": 0.5,
+        "type": "colour"
+      },
+      {
+        "name": "yellow",  
+        "preset": [ 194, 194, 0 ],
+        "timeout": 0.5,
+        "type": "colour"
+      }
+    ],
+  "yeelight": [
+      {
+        "name": "cycle",
+        "type": "cycle",
+        "function": "yee_cycle"
+      },
+      {
+        "name": "dim",
+        "type": "standard",
+        "brightness": 15
+      },
+      {
+        "name": "bright",
+        "type": "standard",
+        "brightness": 85
+      },
+      {
+        "name": "off",
+        "type": "standard"
+      },
+      {
+        "name": "blink-white",
+        "type": "blink",
+        "r": 255, "g": 255, "b": 255,
+        "duration": 2
+      },
+      {
+        "name": "blink-red",
+        "type": "blink",
+        "r": 255, "g": 0, "b": 0,
+        "duration": 2
+      },
+      {
+        "name": "blink-green",
+        "type": "blink",
+        "r": 0, "g": 255, "b": 0,
+        "duration": 2
+      },
+      {
+        "name": "blink-blue",
+        "type": "blink",
+        "r": 0, "g": 0, "b": 255,
+        "duration": 2
+      },
+      {
+        "name": "blink-purple",
+        "type": "blink",
+        "r": 99, "g": 0, "b": 194,
+        "duration": 2
+      },
+      {
+        "name": "blink-yellow",
+        "type": "blink",
+        "r": 194, "g": 194, "b": 0,
+        "duration": 2
+      },
+      {
+        "name": "blink-aqua",
+        "type": "blink",
+        "r": 0, "g": 194, "b": 117,
+        "duration": 2
+      },
+      {
+        "name": "blink-pink",
+        "type": "blink",
+        "r": 194, "g": 0, "b": 180,
+        "duration": 2
+      },
+      {
+        "name": "blink-orange",
+        "type": "blink",
+        "r": 194, "g": 110, "b": 0,
+        "duration": 2
+      },
+      {
+        "name": "blobs-blue",
+        "type": "blobs", 
+        "cycle": [
+          { "r": 0, "g": 0, "b": 255 },
+          { "r": 0, "g": 90, "b": 255 },
+          { "r": 0, "g": 255, "b": 255 },
+          { "r": 0, "g": 190, "b": 255 },
+          { "r": 0, "g": 226, "b": 255 },
+          { "r": 0, "g": 140, "b": 255 }
+        ]
+      },
+      {
+        "name": "blobs-red",
+        "type": "blobs",
+        "cycle": [
+          { "r": 255, "g": 0, "b": 0 },
+          { "r": 255, "g": 165, "b": 0 },
+          { "r": 255, "g": 60, "b": 0 },
+          { "r": 255, "g": 115, "b": 0 },
+          { "r": 255, "g": 200, "b": 0 },
+          { "r": 255, "g": 130, "b": 0 }
+        ]
+      },
+      {
+        "name": "blobs-green",
+        "type": "blobs",
+        "cycle": [
+          { "r": 0, "g": 255, "b": 0 },
+          { "r": 0, "g": 190, "b": 0 },
+          { "r": 77, "g": 184, "b": 0 },
+          { "r": 77, "g": 196, "b": 85 },
+          { "r": 77, "g": 142, "b": 0 },
+          { "r": 111, "g": 255, "b": 92 }
+        ]
+      },
+      {
+        "name": "blobs-purple",
+        "type": "blobs",
+        "cycle": [
+          { "r": 255, "g": 0, "b": 255 },
+          { "r": 255, "g": 0, "b": 112 },
+          { "r": 255, "g": 0, "b": 37 },
+          { "r": 151, "g": 0, "b": 191 },
+          { "r": 78, "g": 0, "b": 191 },
+          { "r": 78, "g": 64, "b": 255 }
+        ]
+      }
+  ]
+}

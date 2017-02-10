@@ -1,0 +1,29 @@
+{
+  "port": 5000,
+  "devices": [
+    {
+      "id": 1,
+      "alias": "tv-bl",
+      "name": "TV Backlight",
+      "address": "x.x.x.x"
+      "port": x,
+      "type": "hyperion"
+    },
+    { 
+      "id": 2,
+      "alias": "yee-tv",
+      "name": "TV Room Light",
+      "address": "x.x.x.x", 
+      "port": x,
+      "type": "yeelight"
+    },
+    {
+      "id": 3,
+      "alias": "yee-kitchen",
+      "name": "Kitchen Room Light",
+      "address": "x.x.x.x",
+      "port": x,
+      "type": "yeelight"
+    }
+  ]
+}
